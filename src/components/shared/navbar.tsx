@@ -7,7 +7,7 @@ import eyeCrownLogo from "public/logos/eye-crown.png";
 import CD from "public/images/cd.jpg";
 import { useRouter } from "next/navigation";
 import { useCart } from "@/hooks/use-cart";
-import { ShoppingCart, Menu } from "lucide-react";
+import { ShoppingCart, Menu, PlayCircle } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 import { Button } from "@/components/ui/button";
 import {
@@ -41,11 +41,11 @@ export default function Navbar() {
             className="hover:text-wh hidden bg-gradient-to-r from-violet-400 to-pink-400 bg-clip-text text-xl font-semibold text-transparent hover:text-white md:block"
             href="/"
           >
-            <span className="underline-offset-4 ">eye-crown</span>.
+            <span className="underline-offset-4 ">music & merch</span>.
           </Link>
 
           <Link href="/">
-            <Image src={eyeCrownLogo} width={25} height={25} alt="" />
+            <PlayCircle />
           </Link>
 
           {/* <div className="hidden space-x-10 rounded-full border bg-white/5 px-6 py-3 text-sm backdrop-blur-lg md:block">

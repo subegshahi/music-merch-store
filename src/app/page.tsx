@@ -12,7 +12,7 @@ export default function Home() {
         <div className="md:w-1/2">
           <div>
             <h1 className="bg-gradient-to-r from-amber-200 via-pink-300 to-pink-100 bg-clip-text text-3xl font-extrabold text-transparent md:text-5xl md:leading-[3.3rem]">
-              Explore The New Eye Crown Merch
+              Explore The New Merch
             </h1>
           </div>
 
