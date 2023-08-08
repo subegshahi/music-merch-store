@@ -1,6 +1,6 @@
 # music-merch-store
 
-The Music and Merch App is a web application built using Next.js 13 with the App Router. This app provides a platform for users to discover and purchase music albums, merchandise, and related products of their favorite artists. The application leverages the power of React Context API for efficient state management, enabling a seamless user experience.
+The Music and Merch App is a web application built using Next.js 13 with the App Router. This app provides a platform for users to discover and purchase music albums, merchandise, and related products of their favourite artists. The application leverages the power of React Context API for efficient state management, enabling a seamless user experience.
 
 ![Alt text](public/readme/home.png)
 
@@ -8,7 +8,7 @@ The Music and Merch App is a web application built using Next.js 13 with the App
 
 1. Next.js 13
 2. React Context API
-3. Tailind CSS
+3. Tailwind CSS
 
 ## Contribution
 
